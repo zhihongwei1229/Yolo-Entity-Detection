@@ -1,7 +1,7 @@
 # Yolo-Entity-Detection
 This project uses a YoLo pertained model to detect cars in images.
 
-# get YoLo Model from yolo.h5
+# Load YoLo Model from yolo.h5
 We can download this h5 file from https://drive.google.com/file/d/1v-V94VX2JWIrsDN4u8t9QUCMfzS6x08c/view
 
 # how to start
