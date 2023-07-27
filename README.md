@@ -7,7 +7,7 @@ We can download this h5 file from https://drive.google.com/file/d/1v-V94VX2JWIrs
 # how to start
 1. Pick an image file from the images folder, and put the image file path in carDetection.py
 2. This system only works well for image sizes 1280 * 720. So if the image size is different, we need to run the image_resize function in carDetection.py
-3. The YoLo model seems can't recognize entities well if the image is rotated. So we need to run image_rotate function for rotated image as well
+3. The YoLo model seems can't recognize entities well if the image is rotated. So we need to run image_rotate function to rotate back for these kind of images.
 4. Run predict function to generate output images in "out" folder, You can find we highlight the cars we detected in these output images.
 
 # Next steps
