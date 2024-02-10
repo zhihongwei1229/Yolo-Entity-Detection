@@ -28,7 +28,7 @@ yolo_model = load_model("source/yolo.h5")
 yolo_outputs = yolo_head(yolo_model.output, anchors, len(class_names))
 scores, boxes, classes = yolo_eval(yolo_outputs, image_shape)
 
-# image = Image.open('images/car_sample.jpeg')
+image = Image.open('images/car_sample.jpeg')
 # file_name = 'car_sample.jpeg'
 # processed_file_name = 'car_sample_processed.jpeg'
 # image_resize(file_name, processed_file_name)
